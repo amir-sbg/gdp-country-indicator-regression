@@ -4,7 +4,7 @@
 
 A Python data-analysis workflow for investigating relationships between GDP growth and economic indicators across countries. The project combines multiple World Bank-style Excel exports into a country/year panel, fits country-level ordinary least squares models, and produces annotated regression plots for exploring relationships such as central government debt versus GDP-per-capita growth.
 
-The analytical core is **classical machine learning and statistical modeling through interpretable linear regression**. It estimates coefficients from observed data rather than using a neural network or opaque predictive system, making the results suitable for exploratory economic analysis while still requiring careful treatment of missing values, confounding variables, and causal interpretation.
+The analytical core is **classical machine learning through interpretable linear regression**. It estimates coefficients relating country-level GDP indicators, produces fitted values and plots, and keeps the calculations inspectable. The results are intended for exploratory economic analysis and require careful treatment of missing values, confounding variables, and causal interpretation.
 
 ## Recommended project identity
 
