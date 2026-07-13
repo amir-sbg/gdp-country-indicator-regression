@@ -177,7 +177,3 @@ python3 -m py_compile dataIntegrator.py plotter.py
 ```
 
 The tracked Python modules pass syntax compilation, and `plotter.py` completed a headless run against the included indicator files in a temporary environment. `dataIntegrator.py` currently stops at runtime on modern NumPy because of its legacy `from numpy import NaN` import; after that compatibility fix, it also requires the listed statistical dependencies. The preview image is generated from the project’s actual GDP/debt inputs using the same country-level regression relationship and mirrors the integration stages implemented by the source.
-
-## License
-
-No license file is currently included. Add a license before distributing or reusing the project outside its original educational context.
